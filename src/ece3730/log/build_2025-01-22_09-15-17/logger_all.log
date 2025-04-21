@@ -1,0 +1,375 @@
+[0.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.050s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x749d11ccef00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x749d11df3950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x749d11df3950>>, mixin_verb=('build',))
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.067s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jshipley/Documents/ros2_ws/src/ece3730'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extension 'ignore'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extension 'ignore_ament_install'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extensions ['colcon_pkg']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extension 'colcon_pkg'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extensions ['colcon_meta']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extension 'colcon_meta'
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extensions ['ros']
+[0.079s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_parameters) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_parameters' with type 'ros.ament_cmake' and name 'cpp_parameters'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['colcon_meta']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'colcon_meta'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extensions ['ros']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pubsub) by extension 'ros'
+[0.080s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ignore_ament_install'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_pkg']
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_pkg'
+[0.080s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_srvcli) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_cpp) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_action_cpp' with type 'ros.ament_cmake' and name 'custom_action_cpp'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extension 'ignore'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extension 'ignore_ament_install'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extensions ['colcon_pkg']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extension 'colcon_pkg'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extensions ['colcon_meta']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extension 'colcon_meta'
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extensions ['ros']
+[0.081s] Level 1:colcon.colcon_core.package_identification:_identify(custom_action_interfaces) by extension 'ros'
+[0.081s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_action_interfaces' with type 'ros.ament_cmake' and name 'custom_action_interfaces'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(custom_msgs) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_msgs' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ros'
+[0.082s] DEBUG:colcon.colcon_core.package_identification:Package 'more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['ignore', 'ignore_ament_install']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ignore'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ignore_ament_install'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['colcon_pkg']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'colcon_pkg'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['colcon_meta']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'colcon_meta'
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extensions ['ros']
+[0.082s] Level 1:colcon.colcon_core.package_identification:_identify(robot) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'robot' with type 'ros.ament_cmake' and name 'robot'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extensions ['ignore', 'ignore_ament_install']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extension 'ignore'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extension 'ignore_ament_install'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extensions ['colcon_pkg']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extension 'colcon_pkg'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extensions ['colcon_meta']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extension 'colcon_meta'
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extensions ['ros']
+[0.083s] Level 1:colcon.colcon_core.package_identification:_identify(week1) by extension 'ros'
+[0.083s] DEBUG:colcon.colcon_core.package_identification:Package 'week1' with type 'ros.ament_cmake' and name 'week1'
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.091s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 30 installed packages in /home/jshipley/Documents/ros2_ws/install
+[0.093s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 300 installed packages in /opt/ros/jazzy
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.119s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.119s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.119s] Level 5:colcon.colcon_core.verb:set package 'custom_action_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.119s] DEBUG:colcon.colcon_core.verb:Building package 'custom_action_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/custom_action_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/custom_action_interfaces', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/more_interfaces', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/robot', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/robot', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'week1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'week1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/week1', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_target' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.120s] Level 5:colcon.colcon_core.verb:set package 'custom_action_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.120s] DEBUG:colcon.colcon_core.verb:Building package 'custom_action_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/build/custom_action_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jshipley/Documents/ros2_ws/src/ece3730/install/custom_action_cpp', 'merge_install': False, 'path': '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.120s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_interfaces' with build type 'ament_cmake'
+[0.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_interfaces'
+[0.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.124s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_msgs' with build type 'ament_cmake'
+[0.124s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/custom_msgs'
+[0.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.126s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_parameters' with build type 'ament_cmake'
+[0.126s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_parameters'
+[0.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.129s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_pubsub' with build type 'ament_cmake'
+[0.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/cpp_pubsub'
+[0.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.132s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/more_interfaces' with build type 'ament_cmake'
+[0.132s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/more_interfaces'
+[0.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/robot' with build type 'ament_cmake'
+[0.135s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/robot'
+[0.135s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.135s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jshipley/Documents/ros2_ws/src/ece3730/week1' with build type 'ament_cmake'
+[0.138s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jshipley/Documents/ros2_ws/src/ece3730/week1'
+[0.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/custom_action_interfaces
+[0.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/custom_msgs -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/tutorial_interfaces
+[0.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters -- -j32 -l32
+[0.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub -- -j32 -l32
+[0.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/more_interfaces
+[0.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/robot -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/robot
+[0.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1 -- -j32 -l32
+[0.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters -- -j32 -l32
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1 -- -j32 -l32
+[0.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1
+[0.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[0.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_parameters
+[0.193s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters' for CMake module files
+[0.193s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters' for CMake config files
+[0.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[0.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[0.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[0.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[0.195s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib'
+[0.195s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/bin'
+[0.195s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib/python3.12/site-packages'
+[0.196s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/bin'
+[0.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[0.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[0.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.sh'
+[0.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.bash'
+[0.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[0.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[0.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_parameters)
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters' for CMake module files
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters' for CMake config files
+[0.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_parameters', 'cmake_prefix_path')
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.ps1'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.dsv'
+[0.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/hook/cmake_prefix_path.sh'
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib'
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/bin'
+[0.198s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib/pkgconfig/cpp_parameters.pc'
+[0.199s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/lib/python3.12/site-packages'
+[0.199s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/bin'
+[0.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.ps1'
+[0.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.dsv'
+[0.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.sh'
+[0.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.bash'
+[0.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/cpp_parameters/package.zsh'
+[0.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_parameters/share/colcon-core/packages/cpp_parameters)
+[0.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week1)
+[0.200s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1' for CMake module files
+[0.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1' for CMake config files
+[0.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('week1', 'cmake_prefix_path')
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.ps1'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.dsv'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.sh'
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib'
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/bin'
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/pkgconfig/week1.pc'
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/python3.12/site-packages'
+[0.201s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/bin'
+[0.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.ps1'
+[0.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.dsv'
+[0.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.sh'
+[0.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.bash'
+[0.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.zsh'
+[0.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/colcon-core/packages/week1)
+[0.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week1)
+[0.203s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1' for CMake module files
+[0.203s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1' for CMake config files
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('week1', 'cmake_prefix_path')
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.ps1'
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.dsv'
+[0.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/hook/cmake_prefix_path.sh'
+[0.203s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib'
+[0.203s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/bin'
+[0.203s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/pkgconfig/week1.pc'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/python3.12/site-packages'
+[0.204s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/bin'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.ps1'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.dsv'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.sh'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.bash'
+[0.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.zsh'
+[0.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/colcon-core/packages/week1)
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jshipley/Documents/ros2_ws/install/launch_testing_examples:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_service:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_guard_conditions:/home/jshipley/Documents/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub -- -j32 -l32
+[0.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.459s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub' for CMake module files
+[0.460s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub' for CMake config files
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/bin'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/python3.12/site-packages'
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/bin'
+[0.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[2.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.200s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.212s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/local_setup.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jshipley/Documents/ros2_ws/src/ece3730/install/_local_setup_util_ps1.py'
+[2.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/setup.ps1'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/local_setup.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jshipley/Documents/ros2_ws/src/ece3730/install/_local_setup_util_sh.py'
+[2.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/setup.sh'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/local_setup.bash'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/setup.bash'
+[2.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/local_setup.zsh'
+[2.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jshipley/Documents/ros2_ws/src/ece3730/install/setup.zsh'

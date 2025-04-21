@@ -1,0 +1,21 @@
+[0.004s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/custom_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_cpp -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/custom_action_cpp
+[0.012s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.128s] -- Configuring incomplete, errors occurred!
+[0.129s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.129s]   By not providing "Findcustom_action_interfaces.cmake" in CMAKE_MODULE_PATH
+[0.129s]   this project has asked CMake to find a package configuration file provided
+[0.129s]   by "custom_action_interfaces", but CMake did not find one.
+[0.129s] 
+[0.129s]   Could not find a package configuration file provided by
+[0.129s]   "custom_action_interfaces" with any of the following names:
+[0.129s] 
+[0.129s]     custom_action_interfacesConfig.cmake
+[0.129s]     custom_action_interfaces-config.cmake
+[0.129s] 
+[0.129s]   Add the installation prefix of "custom_action_interfaces" to
+[0.129s]   CMAKE_PREFIX_PATH or set "custom_action_interfaces_DIR" to a directory
+[0.129s]   containing one of the above files.  If "custom_action_interfaces" provides
+[0.129s]   a separate development package or SDK, be sure it has been installed.
+[0.129s] 
+[0.129s] [0m
+[0.130s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/custom_action_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/custom_action_cpp -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/custom_action_cpp

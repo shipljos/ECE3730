@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1 -- -j32 -l32
+[0.037s] [ 50%] Built target imu
+[0.038s] [100%] Built target odometry
+[0.049s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1 -- -j32 -l32
+[0.050s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/week1/imu
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/lib/week1/odometry
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/ament_index/resource_index/package_run_dependencies/week1
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/ament_index/resource_index/parent_prefix_path/week1
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/environment/ament_prefix_path.dsv
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/environment/path.sh
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/environment/path.dsv
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/local_setup.bash
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/local_setup.sh
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/local_setup.zsh
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/local_setup.dsv
+[0.055s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.dsv
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/ament_index/resource_index/packages/week1
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/cmake/week1Config.cmake
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/cmake/week1Config-version.cmake
+[0.055s] -- Up-to-date: /home/jshipley/Documents/ros2_ws/src/ece3730/install/week1/share/week1/package.xml
+[0.063s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/week1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/week1

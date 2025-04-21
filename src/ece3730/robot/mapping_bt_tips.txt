@@ -1,0 +1,9 @@
+get current pose (x, y, yaw)
+meters of current location to pixels on map
+meters/resolution
+scale versus height and width
+x+y*width
+for x 
+	for y
+		find -1 values
+		distance between two pixels

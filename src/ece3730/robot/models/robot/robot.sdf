@@ -1,0 +1,606 @@
+<sdf version='1.10'>
+    <model name='vehicle_blue' canonical_link='base_link'>
+        <pose>0 0 0 0 0 0</pose>
+
+        <link name='base_link'>
+            <pose relative_to="__model__">0 0 0.1 0 0 0</pose>
+            <inertial>
+                <mass>0.01</mass>
+                <inertia>
+                <ixx>0.00001</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00001</iyy>
+                <iyz>0</iyz>
+                <izz>0.00001</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+        </link>
+
+        <joint name='chassis_joint' type='fixed'>
+            <parent>base_link</parent>
+            <child>chassis</child>
+        </joint>
+
+        <link name='chassis'>
+            <pose relative_to="base_link">0 0 0.15 0 0 0</pose>
+            <inertial>
+                <mass>2</mass>
+                <inertia>
+                <ixx>0.02081</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.05998</iyy>
+                <iyz>0</iyz>
+                <izz>0.06837</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+            <visual name='visual'>
+                <geometry>
+                <box>
+                    <size> 0.568 0.296 0.193 </size>
+                </box>
+                </geometry>
+                <material>
+                <ambient>0 0 1 1</ambient>
+                <diffuse>0 0 1 1</diffuse>
+                <specular>0 0 1 1</specular>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                <box>
+                    <size> 0.568 0.296 0.193 </size>
+                </box>
+                </geometry>
+                <surface>
+                <friction>
+                    <ode/>
+                </friction>
+                <bounce/>
+                <contact/>
+                </surface>
+            </collision>
+            <enable_wind>false</enable_wind>
+        </link>
+
+        <link name='base_footprint'>
+            <pose relative_to="base_link"/>
+            <inertial>
+                <mass>0.01</mass>
+                <inertia>
+                <ixx>0.00001</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00001</iyy>
+                <iyz>0</iyz>
+                <izz>0.00001</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+        </link>
+
+        <joint name='base_joint' type='fixed'>
+            <parent>base_link</parent>
+            <child>base_footprint</child>
+        </joint>
+
+        <link name='left_wheel'>
+            <pose relative_to="chassis">-.22 0.18 -.05 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                <ixx>0.0003483</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00061605</iyy>
+                <iyz>0</iyz>
+                <izz>0.0003483</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+            <visual name='visual'>
+                <geometry>
+                    <mesh>
+                        <uri>package://robot/models/robot/meshes/wheel.dae</uri>
+                        <scale>0.6 0.6 0.6</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                    <mesh>
+                        <uri>package://robot/models/robot/meshes/wheel.dae</uri>
+                        <scale>0.6 0.6 0.6</scale>
+                    </mesh>
+                </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>1.0</mu>  <!-- Coefficient of friction (dry asphalt) -->
+                            <mu2>1.0</mu2>
+                            <slip1>0.05</slip1> <!-- Slip values for the tire when turning or sliding -->
+                            <slip2>0.05</slip2>
+                        </ode>
+                    </friction>
+                <bounce/>
+                <contact/>
+                </surface>
+            </collision>
+            <enable_wind>false</enable_wind>
+        </link>
+
+        <link name='right_wheel'>
+            <pose relative_to="chassis">-.22 -0.18 -.05 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                <ixx>0.0003483</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00061605</iyy>
+                <iyz>0</iyz>
+                <izz>0.0003483</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+            <visual name='visual'>
+                <geometry>
+                    <mesh>
+                        <uri>package://robot/models/robot/meshes/wheel.dae</uri>
+                        <scale>0.6 0.6 0.6</scale>
+                    </mesh>
+                </geometry>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                    <mesh>
+                        <uri>package://robot/models/robot/meshes/wheel.dae</uri>
+                        <scale>0.6 0.6 0.6</scale>
+                    </mesh>
+                </geometry>
+                <surface>
+                <friction>
+                    <ode>
+                        <mu>1.0</mu>  <!-- Coefficient of friction (dry asphalt) -->
+                        <mu2>1.0</mu2>
+                        <slip1>0.05</slip1> <!-- Slip values for the tire when turning or sliding -->
+                        <slip2>0.05</slip2>
+                    </ode>
+                </friction>
+                <bounce/>
+                <contact/>
+                </surface>
+            </collision>
+            <enable_wind>false</enable_wind>
+        </link>
+
+        <frame name='caster_frame' attached_to='chassis'>
+            <pose relative_to="chassis">0.2 0 -.1 0 0 0</pose>
+        </frame>
+
+        <link name='caster'>
+            <pose relative_to="chassis">0.2 0 -.1 0 0 0</pose>
+            <inertial>
+                <mass>0.3</mass>
+                <inertia>
+                <ixx>0.0003</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.0003</iyy>
+                <iyz>0</iyz>
+                <izz>0.0003</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+            <visual name='visual'>
+                <geometry>
+                <sphere>
+                    <radius>0.05</radius>
+                </sphere>
+                </geometry>
+                <material>
+                <ambient>0 1 0 1</ambient>
+                <diffuse>0 1 0 1</diffuse>
+                <specular>0 1 0 1</specular>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                <sphere>
+                    <radius>0.05</radius>
+                </sphere>
+                </geometry>
+                <surface>
+                    <friction>
+                        <ode>
+                            <mu>1.0</mu>  <!-- Coefficient of friction for the wheel-ground interaction -->
+                            <mu2>1.0</mu2>
+                            <slip1>0.2</slip1> <!-- Adjust these for rolling/sliding friction behavior -->
+                            <slip2>0.2</slip2>
+                        </ode>
+                    </friction>
+                <bounce/>
+                <contact/>
+                </surface>
+            </collision>
+            <enable_wind>false</enable_wind>
+        </link>
+
+        <joint name='caster_wheel' type='revolute'>
+            <parent>chassis</parent>
+            <child>caster</child>
+            <pose>0 0 0 0 0 0</pose>
+            <axis>
+                <xyz>0 1 0</xyz>  <!-- Rotation axis, adjust if needed -->
+            </axis>
+        </joint>
+
+        <joint name='left_wheel_joint' type='revolute'>
+            <pose>0 0 0 0 0 0</pose>
+            <parent>chassis</parent>
+            <child>left_wheel</child>
+            <axis>
+                <xyz>0 1 0</xyz>
+                <limit>
+                <lower>-1.7976900000000001e+308</lower>
+                <upper>1.7976900000000001e+308</upper>
+                <effort>inf</effort>
+                <velocity>inf</velocity>
+                <stiffness>100000000</stiffness>
+                <dissipation>1</dissipation>
+                </limit>
+                <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>0</damping>
+                <friction>0</friction>
+                </dynamics>
+            </axis>
+        </joint>
+
+        <joint name='right_wheel_joint' type='revolute'>
+            <pose>0 0 0 0 0 0</pose>
+            <parent>chassis</parent>
+            <child>right_wheel</child>
+            <axis>
+                <xyz>0 1 0</xyz>
+                <limit>
+                <lower>-1.7976900000000001e+308</lower>
+                <upper>1.7976900000000001e+308</upper>
+                <effort>inf</effort>
+                <velocity>inf</velocity>
+                <stiffness>100000000</stiffness>
+                <dissipation>1</dissipation>
+                </limit>
+                <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>0</damping>
+                <friction>0</friction>
+                </dynamics>
+            </axis>
+        </joint>
+
+        <link name='camera_body'>
+            <pose relative_to="chassis">0.286 0 0 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                <ixx>0.00000333</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00000333</iyy>
+                <iyz>0</iyz>
+                <izz>0.000005</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+            <visual name='visual'>
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                    <cylinder>
+                        <radius>0.01</radius>
+                        <length>0.01</length>
+                    </cylinder>
+                </geometry>
+                <material>
+                    <ambient>0 0 0.7 0</ambient>
+                    <diffuse>0 0 0.7 0.5</diffuse>
+                    <specular>0 0 0.7 0.5</specular>
+                    <emissive>0 0 0.7 0.5</emissive>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <pose>0 0 0 0 1.5707 0</pose>
+                <geometry>
+                    <cylinder>
+                        <radius>0.01</radius>
+                        <length>0.01</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+            <sensor name="camera" type="camera">
+              <camera>
+                <pose>0 0 0 0 0 0</pose>
+                <horizontal_fov>1.047</horizontal_fov>
+                <image>
+                  <width>800</width>
+                  <height>600</height>
+                </image>
+                <clip>
+                  <near>0.1</near>
+                  <far>100</far>
+                </clip>
+                <optical_frame_id>camera</optical_frame_id>
+              </camera>
+              <always_on>1</always_on>
+              <update_rate>30</update_rate>
+              <visualize>true</visualize>
+              <topic>camera</topic>
+            </sensor>
+        </link>
+
+        <link name='camera'>
+            <pose relative_to="camera_body">0.01 0 0 1.5708 3.141 1.5708</pose>
+            <inertial>
+                <mass>0.05</mass>
+                <inertia>
+                <ixx>0.00000033</ixx>
+                <ixy>0</ixy>
+                <ixz>0</ixz>
+                <iyy>0.00000033</iyy>
+                <iyz>0</iyz>
+                <izz>0.0000005</izz>
+                </inertia>
+                <pose>0 0 0 0 0 0</pose>
+            </inertial>
+        </link>
+
+        <joint name='camera_joint' type='fixed'>
+            <parent>chassis</parent>
+            <child>camera_body</child>
+        </joint>
+
+        <joint name='camera_optical_joint' type='fixed'>
+            <parent>camera_body</parent>
+            <child>camera</child>
+        </joint>
+
+        <link name="gps">
+            <pose relative_to="chassis">0.2 -0.1 0.1 0 0 0</pose>
+            <inertial>
+            <mass>0.01</mass>
+                <inertia>
+                    <ixx>0.00000308</ixx>
+                    <iyy>0.00000308</iyy>
+                    <izz>0.000002</izz>
+                </inertia>
+            </inertial>
+            <collision name="collision">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+                <material>
+                    <ambient>0 1 1 0</ambient>
+                    <diffuse>0 1 1 0</diffuse>
+                    <specular>0 1 1 0</specular>
+                    <emissive>0 1 1 0</emissive>
+                </material>
+            </visual>
+
+            <sensor name="navsat_sensor" type="navsat">
+                <always_on>1</always_on>
+                <update_rate>30</update_rate>
+                <topic>navsat</topic>
+                <gz_frame_id>gps</gz_frame_id>
+            </sensor>
+        </link>
+
+        <joint name='gps_joint' type='fixed'>
+            <parent>chassis</parent>
+            <child>gps</child>
+        </joint>
+
+        <link name="imu">
+            <pose relative_to="chassis">0.2 0.1 0.1 0 0 0</pose>
+            <inertial>
+            <mass>0.01</mass>
+                <inertia>
+                    <ixx>0.00000308</ixx>
+                    <iyy>0.00000308</iyy>
+                    <izz>0.000002</izz>
+                </inertia>
+            </inertial>
+            <collision name="collision">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+                <material>
+                    <ambient>1 0 0 0</ambient>
+                    <diffuse>1 0 0 0</diffuse>
+                    <specular>1 0 0 0</specular>
+                    <emissive>1 0 0 0</emissive>
+                </material>
+            </visual>
+            
+            <sensor name="imu_sensor" type="imu">
+                <always_on>1</always_on>
+                <update_rate>1</update_rate>
+                <visualize>true</visualize>
+                <topic>imu</topic>
+            </sensor>
+        </link>
+
+        <joint name='imu_joint' type='fixed'>
+            <parent>chassis</parent>
+            <child>imu</child>
+        </joint>
+
+        <link name="lidar">
+            <pose relative_to="chassis">0.2 0.0 0.1 0 0 0</pose>
+            <inertial>
+            <mass>0.01</mass>
+                <inertia>
+                    <ixx>0.00000308</ixx>
+                    <iyy>0.00000308</iyy>
+                    <izz>0.000002</izz>
+                </inertia>
+            </inertial>
+            <collision name="collision">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+            </collision>
+            <visual name="visual">
+                <geometry>
+                    <cylinder>
+                        <radius>0.02</radius>
+                        <length>0.05</length>
+                    </cylinder>
+                </geometry>
+                <material>
+                    <ambient>0 1 0 0</ambient>
+                    <diffuse>0 1 0 0</diffuse>
+                    <specular>0 1 0 0</specular>
+                    <emissive>0 1 0 0</emissive>
+                </material>
+            </visual>
+
+            <sensor name='gpu_lidar' type='gpu_lidar'>
+                <pose relative_to='lidar'>0 0 0.05 0 0 0</pose>
+                <topic>scan</topic>
+                <gz_frame_id>lidar</gz_frame_id>
+                <update_rate>10</update_rate>
+                <lidar>
+                    <scan>
+                    <horizontal>
+                        <samples>1081</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-2.356</min_angle>
+                        <max_angle>2.356</max_angle>
+                    </horizontal>
+                    </scan>
+                    <range>
+                    <min>0.08</min>
+                    <max>10.0</max>
+                    <resolution>0.05</resolution>
+                    </range>
+                </lidar>
+                <alwaysOn>1</alwaysOn>
+                <visualize>true</visualize>
+            </sensor>
+        </link>
+
+        <joint name='lidar_joint' type='fixed'>
+            <parent>chassis</parent>
+            <child>lidar</child>
+        </joint>
+
+        <static>false</static>
+        <self_collide>false</self_collide>
+        
+        <!--diff drive plugin-->
+        <plugin
+            filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>0.36</wheel_separation>
+            <wheel_radius>0.111</wheel_radius>
+            <topic>cmd_vel</topic>
+            <odom_publish_frequency>30</odom_publish_frequency>
+            <odom_topic>odom</odom_topic>
+            <tf_topic>tf</tf_topic>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_link</child_frame_id>
+        </plugin>
+
+        <plugin
+            filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+        </plugin>
+
+        <!-- Moving Forward-->
+        <plugin filename="gz-sim-triggered-publisher-system"
+                name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+                <match field="data">16777235</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: 1.0}, angular: {z: 0.0}
+            </output>
+        </plugin>
+
+        <!-- Moving Backward-->
+        <plugin filename="gz-sim-triggered-publisher-system"
+                name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+                <match field="data">16777237</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: -1.0}, angular: {z: 0.0}
+            </output>
+        </plugin>
+
+        <!-- Turning Right-->
+        <plugin filename="gz-sim-triggered-publisher-system"
+                name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+                <match field="data">16777236</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: 0.0}, angular: {z: -1.0}
+            </output>
+        </plugin>
+
+        <!-- Turning Left-->
+        <plugin filename="gz-sim-triggered-publisher-system"
+                name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+                <match field="data">16777234</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: 0.0}, angular: {z: 1.0}
+            </output>
+        </plugin>
+
+        <!-- Stopping-->
+        <plugin filename="gz-sim-triggered-publisher-system"
+                name="gz::sim::systems::TriggeredPublisher">
+            <input type="gz.msgs.Int32" topic="/keyboard/keypress">
+                <match field="data">16777222</match>
+            </input>
+            <output type="gz.msgs.Twist" topic="/cmd_vel">
+                linear: {x: 0.0}, angular: {z: 0.0}
+            </output>
+        </plugin>
+    </model>
+</sdf>

@@ -1,0 +1,68 @@
+[0.006s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub
+[0.039s] -- The C compiler identification is GNU 13.3.0
+[0.069s] -- The CXX compiler identification is GNU 13.3.0
+[0.079s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.273s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.318s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.337s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.390s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.433s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.445s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.460s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.493s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.501s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.550s] -- Configured cppcheck include dirs: 
+[0.550s] -- Configured cppcheck exclude dirs and/or files: 
+[0.550s] -- Added test 'lint_cmake' to check CMake code style
+[0.551s] -- Added test 'uncrustify' to check C / C++ code style
+[0.551s] -- Configured uncrustify additional arguments: 
+[0.551s] -- Added test 'xmllint' to check XML markup files
+[0.552s] -- Configuring done (0.5s)
+[0.557s] -- Generating done (0.0s)
+[0.559s] -- Build files have been written to: /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub
+[0.565s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub
+[0.566s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub -- -j32 -l32
+[0.595s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.597s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[2.499s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[2.577s] [ 75%] Built target talker
+[3.797s] [100%] [32m[1mLinking CXX executable listener[0m
+[3.912s] [100%] Built target listener
+[3.919s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub -- -j32 -l32
+[3.920s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub
+[3.924s] -- Install configuration: ""
+[3.924s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.925s] -- Set non-toolchain portion of runtime path of "/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.925s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/cpp_pubsub/listener
+[3.926s] -- Set non-toolchain portion of runtime path of "/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[3.926s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.927s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.928s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_pubsub

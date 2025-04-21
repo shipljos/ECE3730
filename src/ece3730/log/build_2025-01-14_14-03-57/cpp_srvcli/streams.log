@@ -1,0 +1,68 @@
+[0.005s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli
+[0.036s] -- The C compiler identification is GNU 13.3.0
+[0.067s] -- The CXX compiler identification is GNU 13.3.0
+[0.076s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.131s] -- Detecting C compile features - done
+[0.136s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.266s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.312s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.331s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.385s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.439s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.486s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.514s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.565s] -- Configured cppcheck include dirs: 
+[0.565s] -- Configured cppcheck exclude dirs and/or files: 
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.566s] -- Added test 'uncrustify' to check C / C++ code style
+[0.566s] -- Configured uncrustify additional arguments: 
+[0.566s] -- Added test 'xmllint' to check XML markup files
+[0.567s] -- Configuring done (0.6s)
+[0.573s] -- Generating done (0.0s)
+[0.575s] -- Build files have been written to: /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli
+[0.580s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jshipley/Documents/ros2_ws/src/ece3730/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli
+[0.581s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli -- -j32 -l32
+[0.611s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.611s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.085s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.157s] [ 75%] Built target server
+[2.205s] [100%] [32m[1mLinking CXX executable client[0m
+[2.277s] [100%] Built target client
+[2.287s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli -- -j32 -l32
+[2.292s] Invoking command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli
+[2.297s] -- Install configuration: ""
+[2.297s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.298s] -- Set non-toolchain portion of runtime path of "/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.298s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/lib/cpp_srvcli/client
+[2.299s] -- Set non-toolchain portion of runtime path of "/home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.299s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.300s] -- Installing: /home/jshipley/Documents/ros2_ws/src/ece3730/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.302s] Invoked command in '/home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jshipley/Documents/ros2_ws/src/ece3730/build/cpp_srvcli
